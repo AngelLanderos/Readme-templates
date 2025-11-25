@@ -4,7 +4,6 @@ Explain what problem it solves and for what use case it was designed.
 
 ---
 
-
 # 🚀 Tech Stack
 - **Node.js**  
 - **TypeScript**  
@@ -14,7 +13,6 @@ Explain what problem it solves and for what use case it was designed.
 - **Jest / Supertest**
 
 ---
-
 
 # 📁 Project Structure
 /src
@@ -26,7 +24,6 @@ Explain what problem it solves and for what use case it was designed.
 └── main.ts
 
 ---
-
 
 # ⚙️ Installation
 ```
@@ -41,7 +38,6 @@ npm install
 
 ---
 
-
 # ▶️ Running the Project
 ### Development
 ```
@@ -55,7 +51,6 @@ npm run start
 ```
 
 ---
-
 
 # 🐳 Running with Docker
 ```
@@ -92,7 +87,39 @@ npm run test: cov
 ```
 
 ---
+# 🏗️ Architecture & Decisions
+###This project follows:
+- SOLID principles
+- Clean Architecture
+- DTO pattern
+- Repository + Service layer separation
+- Environment-driven configuration
+- Centralized error handling
+- Modular folder structure
+
+###Reasons for the chosen architecture:
+- Scalability
+- Maintainability
+- Testability
+- Separation of concerns
+---
+
+# Diagrama simple de arquitecutra
 
 
+# 📌 API Documentation
+If using Swagger:
+```
 
+```
+---
+
+# 📅 Roadmap
+- [x] Add CI/CD
+- [ ] Complete integration tests
+- [ ] Add caching layer (Redis)
+- [ ] Deploy to Digital Ocean
+
+# © License
+MIT license.
 
